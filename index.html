@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dược Lâm Sàng Phương X | DSCKI. Lê Mới Em | v1.2026</title>
+<title>Dược Lâm Sàng Bệnh Viện | DSCKI. Lê Mới Em | v1.2026</title>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* ===== RESET & BASE ===== */
@@ -252,7 +252,7 @@ hr.div{border:none;border-top:1.5px solid var(--BOR);margin:14px 0}
     <div class="logo-row">
       <div class="logo-ico">💊</div>
       <div>
-        <div class="logo-title">Dược Lâm Sàng<br>Phương X</div>
+        <div class="logo-title">Dược Lâm Sàng<br>Bệnh Viện X</div>
         <div class="logo-sub">Clinical Pharmacy Tools</div>
       </div>
     </div>
@@ -306,7 +306,7 @@ hr.div{border:none;border-top:1.5px solid var(--BOR);margin:14px 0}
     <div class="ni" data-pg="ai"><span class="ni-ico">🤖</span>Trợ lý AI <span class="ni-badge">AI</span></div>
   </nav>
   <div id="SB-foot">
-    Bệnh viện Sản Nhi · Tập đoàn Y tế Phương Châu<br>
+    Bệnh viện Đa Khoa · Tập đoàn Y tế Việt Nam<br>
     <strong style="color:var(--ACCL)">DSCKI. Lê Mới Em</strong><br>
     Phiên bản 1.0 · Năm 2026<br>
     Chỉ dành cho chuyên gia y tế
@@ -319,7 +319,7 @@ hr.div{border:none;border-top:1.5px solid var(--BOR);margin:14px 0}
     <button id="MB-btn">☰</button>
     <div>
       <div id="TB-title">Trang chủ</div>
-      <div id="TB-sub">Bệnh viện Sản Nhi · Tập đoàn Y tế Phương Châu</div>
+      <div id="TB-sub">Bệnh viện Đa Khoa · Tập đoàn Y tế Việt Nam</div>
     </div>
     <div class="tb-acts">
       <button class="btn-ico" onclick="showPg('ai')" title="Trợ lý AI">🤖 AI</button>
@@ -333,7 +333,7 @@ hr.div{border:none;border-top:1.5px solid var(--BOR);margin:14px 0}
   <div class="hero">
     <div style="position:relative;z-index:1">
       <h1>⚕ Công cụ Hỗ trợ Dược Lâm Sàng</h1>
-      <p>Hệ thống tính toán dược động học, liều thuốc, thang điểm lâm sàng và tra cứu tương tác thuốc — chuẩn mực bằng chứng y văn, tối ưu cho thực hành tại Bệnh viện Sản Nhi Phương X.</p>
+      <p>Hệ thống tính toán dược động học, liều thuốc, thang điểm lâm sàng và tra cứu tương tác thuốc — chuẩn mực bằng chứng y văn, tối ưu cho thực hành tại Bệnh viện Đa Khoa.</p>
       <div class="hero-tags">
         <span class="htag">📊 24 Module</span>
         <span class="htag">🔬 PK/PD Bayesian</span>
@@ -3895,7 +3895,7 @@ async function sendAI() {
       body:JSON.stringify({
         model:'claude-sonnet-4-20250514',
         max_tokens:1000,
-        system:'Bạn là Dược sĩ lâm sàng AI (PharmD) tại Bệnh viện Sản Nhi, Tập đoàn Phương Châu. Trả lời ngắn gọn, chính xác bằng tiếng Việt. Dùng số liệu cụ thể. Nhắc nhở kết quả chỉ tham khảo.',
+        system:'Bạn là Dược sĩ lâm sàng AI (PharmD) tại Bệnh viện Đa Khoa, Tập đoàn Y tế Việt Nam. Trả lời ngắn gọn, chính xác bằng tiếng Việt. Dùng số liệu cụ thể. Nhắc nhở kết quả chỉ tham khảo.',
         messages:[{role:'user',content:msg}]
       })
     });
@@ -4077,7 +4077,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Build abbreviation table
   buildAbbrTable();
 
-  console.log('%c⚕ Dược Lâm Sàng Phương Nam v1.2026 — Loaded','background:#005B8E;color:#fff;padding:4px 10px;border-radius:4px;font-weight:bold');
+  console.log('%c⚕ Dược Lâm Sàng Bệnh Viện v1.2026 — Loaded','background:#005B8E;color:#fff;padding:4px 10px;border-radius:4px;font-weight:bold');
 });
 </script>
 </body>
